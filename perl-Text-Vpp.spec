@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Vpp
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Vpp perl module
 Summary(pl):	Modu³ perla Text-Vpp
 Name:		perl-Text-Vpp
 Version:	1.16
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-Vpp perl module.
 Modu³ perla Text-Vpp.
 
 %prep
-%setup -q -n Text-Vpp-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
