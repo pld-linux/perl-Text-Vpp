@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Vpp
-Summary:	Text::Vpp perl module
-Summary(pl):	Modu³ perla Text::Vpp
+Summary:	Text::Vpp - Perl extension for a versatile text pre-processor
 Name:		perl-Text-Vpp
 Version:	1.16
 Release:	4
@@ -15,10 +14,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Vpp perl module.
-
-%description -l pl
-Modu³ perla Text::Vpp.
+This class enables to preprocess a file a bit like cpp.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
