@@ -24,7 +24,7 @@ Ta klasa pozwala na preprocesing plików w sposób nieco podobny do cpp.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
