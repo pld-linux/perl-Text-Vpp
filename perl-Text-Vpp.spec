@@ -26,7 +26,7 @@ Ta klasa pozwala na preprocesing plików w sposób nieco podobny do cpp.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
