@@ -2,7 +2,7 @@
 Summary:	Text-Vpp perl module
 Summary(pl):	Modu³ perla Text-Vpp
 Name:		perl-Text-Vpp
-Version:	1.15
+Version:	1.16
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
