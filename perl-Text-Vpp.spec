@@ -2,7 +2,7 @@
 %define	pdir	Text
 %define	pnam	Vpp
 Summary:	Text::Vpp - Perl extension for a versatile text pre-processor
-Summary(pl):	Text::Vpp - perlowe roszerzenie wszechstronnego preprocesora tekstu
+Summary(pl):	Text::Vpp - perlowe rozszerzenie wszechstronnego preprocesora tekstu
 Name:		perl-Text-Vpp
 Version:	1.16
 Release:	8
