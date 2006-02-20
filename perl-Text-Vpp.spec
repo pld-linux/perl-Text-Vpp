@@ -4,13 +4,13 @@
 Summary:	Text::Vpp - Perl extension for a versatile text pre-processor
 Summary(pl):	Text::Vpp - perlowe rozszerzenie wszechstronnego preprocesora tekstu
 Name:		perl-Text-Vpp
-Version:	1.16
-Release:	8
+Version:	1.17
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7c15a453e6652f37f1f7436ca702b580
+# Source0-md5:	591729b06fb0b7eec26ac933f5552350
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
