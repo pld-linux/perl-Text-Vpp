@@ -2,7 +2,7 @@
 %define		pdir	Text
 %define		pnam	Vpp
 Summary:	Text::Vpp - Perl extension for a versatile text pre-processor
-Summary(pl):	Text::Vpp - perlowe rozszerzenie wszechstronnego preprocesora tekstu
+Summary(pl.UTF-8):   Text::Vpp - perlowe rozszerzenie wszechstronnego preprocesora tekstu
 Name:		perl-Text-Vpp
 Version:	1.17
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This class enables to preprocess a file a bit like cpp.
 
-%description -l pl
-Ta klasa pozwala na preprocesing plików w sposób nieco podobny do cpp.
+%description -l pl.UTF-8
+Ta klasa pozwala na preprocesing plikÃ³w w sposÃ³b nieco podobny do cpp.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
