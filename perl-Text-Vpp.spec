@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Text
 %define		pnam	Vpp
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Vpp - Perl extension for a versatile text pre-processor
 Summary(pl.UTF-8):	Text::Vpp - perlowe rozszerzenie wszechstronnego preprocesora tekstu
 Name:		perl-Text-Vpp
@@ -11,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	591729b06fb0b7eec26ac933f5552350
+URL:		http://search.cpan.org/dist/Text-Vpp/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
